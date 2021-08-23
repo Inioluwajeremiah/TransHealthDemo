@@ -6,15 +6,54 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_menu_hospital"
+            android:title="@string/menu_hospital" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_pharmacy"
+            android:icon="@drawable/ic_menu_pharmacy"
+            android:title="@string/menu_pharmacy" />
+        <item
+            android:id="@+id/nav_consultant"
+            android:icon="@drawable/ic_menu_consultant"
+            android:title="@string/menu_consultant" />
+
+        <item
+            android:title="Education">
+            <menu>
+                <item
+                    android:id="@+id/nav_diet"
+                    android:icon="@drawable/ic_menu_diet"
+                    android:title="@string/menu_diet" />
+                <item
+                    android:id="@+id/nav_fitness"
+                    android:icon="@drawable/ic_menu_fitness"
+                    android:title="@string/menu_fitness" />
+                <item
+                    android:id="@+id/nav_healthplug"
+                    android:icon="@drawable/ic_menu_healthplug"
+                    android:title="@string/menu_healthplug" />
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Users">
+            <menu>
+                <item
+                    android:id="@+id/nav_signup"
+                    android:icon="@drawable/ic_menu_signup"
+                    android:title="@string/menu_signup" />
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_menu_login"
+                    android:title="@string/menu_login" />
+            </menu>
+        </item>
     </group>
 </menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/fitness_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/fitness_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fitness title"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/fitness_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fitness subtitle"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <VideoView
+        android:id="@+id/fitness_video"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/fitness_header"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/fitness_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitness text"
+        android:textSize="14sp"
+        android:layout_below="@id/fitness_video"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

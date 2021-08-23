@@ -8,6 +8,67 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_diet">Diet</string>
+    <string name="menu_fitness">Fitness</string>
+    <string name="menu_healthplug">Health Plug</string>
+    <string name="menu_signup">Sign up</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_hospital">Hospital</string>
+    <string name="menu_pharmacy">Pharmacy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_consultant">Consultant</string>
+
+    <string-array name="fitness_text">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="hp_title">
+        <item>Eat Breakfast </item>
+        <item>Make Half Your Plate Fruits and Vegetables</item>
+        <item>Watch Portion Sizes</item>
+        <item>Be Active</item>
+        <item>Fix Healthy Snacks</item>
+    </string-array>
+    <string-array name="hp_desc">
+        <item>There’s no better way to start your morning than with a healthy breakfast. Include lean protein, whole grains, fruits and vegetables. Try oatmeal cooked with low-fat milk, sliced almonds and berries, or top a toaster waffle with low-fat yogurt and fruit. Find more quick breakfast ideas at</item>
+        <item>Fruits and veggies add color, flavor and texture plus vitamins, minerals and fiber to your plate. Make 2 cups of fruit and 2 ½ cups of vegetables your daily goal. Don’t let winter stop you from enjoying produce. It may be harder to find fresh options, but frozen and canned are great alternatives. See “20 Ways to Enjoy More Fruits and Vegetables</item>
+        <item>Do you know if you’re eating the proper portion size? Get out the measuring cups and see how close your portions are to the recommended serving size. Using smaller plates, bowls and glasses can help you keep portions under control. Use half your plate for fruits and vegetables and the other half for grains and lean meat, poultry, seafood or beans. To complete the meal, add a glass of fat-free or low-fat milk or a serving of fat-free
+yogurt for dessert.</item>
+        <item>Regular physical activity lowers blood pressure and helps your body control stress and weight. Start by doing what exercise you can for at least 10 minutes at a time. Children and teens should get 60 or more minutes of physical activity per day, and adults should get two hours and 30 minutes per week. You don’t have to hit the gym—take a walk after dinner or play a game of catch or basketball.</item>
+        <item>Healthy snacks can sustain your energy levels between meals. Whenever possible, make your snacks combination snacks. Choose from the MyPlate food groups: whole grains, fruits, vegetables, low-fat or fat-free dairy, lean protein or nuts. Try low-fat yogurt with fruit, whole-grain crackers with low-fat cheese, or a small portion of nuts with an apple or banana. For more snack ideas, see “25 Healthy Snacks for Kids” and “Smart Snacking for Adults and Teens</item>
+    </string-array>
+    <string-array name="hp_cat">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <item>Category 4</item>
+        <item>Category 5</item>
+    </string-array>
+    <string-array name="hp_author">
+        <item>Author 1</item>
+        <item>Author 2</item>
+        <item>Author 3</item>
+        <item>Author 4</item>
+        <item>Author 5</item>
+    </string-array>
+    <string-array name="hp_date">
+        <item>22/08/2021</item>
+        <item>22/08/2021</item>
+        <item>22/08/2021</item>
+        <item>22/08/2021</item>
+        <item>22/08/2021</item>
+    </string-array>
+
+    <string-array name="diet_text">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
 </resources>

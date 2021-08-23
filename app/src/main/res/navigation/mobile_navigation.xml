@@ -12,14 +12,47 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.transhealthdemo.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_hospital"
+        android:name="com.example.transhealthdemo.ui.hospital.HospitalFragment"
+        android:label="@string/menu_hospital"
+        tools:layout="@layout/fragment_hospital" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.transhealthdemo.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_pharmacy"
+        android:name="com.example.transhealthdemo.ui.pharmacy.PharmacyFragment"
+        android:label="@string/menu_pharmacy"
+        tools:layout="@layout/fragment_pharmacy" />
+    <fragment
+        android:id="@+id/nav_consultant"
+        android:name="com.example.transhealthdemo.ui.consultant.ConsultantFragment"
+        android:label="@string/menu_consultant"
+        tools:layout="@layout/fragment_consultant" />
+
+    <fragment
+        android:id="@+id/nav_fitness"
+        android:name="com.example.transhealthdemo.ui.fitness.FitnessFragment"
+        android:label="@string/menu_fitness"
+        tools:layout="@layout/fitness_fragment" />
+
+    <fragment
+        android:id="@+id/nav_diet"
+        android:name="com.example.transhealthdemo.ui.diet.DietFragment"
+        android:label="@string/menu_diet"
+        tools:layout="@layout/fragment_diet" />
+    <fragment
+        android:id="@+id/nav_healthplug"
+        android:name="com.example.transhealthdemo.ui.healthplug.HealthplugFragment"
+        android:label="@string/menu_healthplug"
+        tools:layout="@layout/fragment_healthplug" />
+    <fragment
+        android:id="@+id/nav_signupg"
+        android:name="com.example.transhealthdemo.ui.signup.SignupFragment"
+        android:label="@string/menu_signup"
+        tools:layout="@layout/fragment_signup" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.transhealthdemo.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
 </navigation>
