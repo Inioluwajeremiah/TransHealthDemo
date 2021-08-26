@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TransHealth Demo</string>
+    <string name="app_name">TransHealth</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -13,11 +13,22 @@
     <string name="menu_healthplug">Health Plug</string>
     <string name="menu_signup">Sign up</string>
     <string name="menu_login">Login</string>
-    <string name="menu_hospital">Hospital</string>
+    <string name="menu_emergency">Emergency</string>
     <string name="menu_pharmacy">Pharmacy</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_consultant">Consultant</string>
+
+
+    <string-array name="health_issues_text">
+        <item>Choose</item>
+        <item>Accident</item>
+        <item>Gas Explosion</item>
+        <item>Cut</item>
+        <item>Fire / Burn</item>
+        <item>Drown / Water Issue</item>
+        <item>Others</item>
+    </string-array>
 
     <string-array name="fitness_text">
         <item></item>

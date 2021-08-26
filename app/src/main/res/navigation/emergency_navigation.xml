@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emergency_navigation"
+    app:startDestination="@id/emergency_request">
+
+    <fragment
+        android:id="@+id/emergency_request"
+        android:name="com.example.transhealthdemo.ui.Emergency.EmergencyRequest"
+        android:label="Ambulance Request">
+        <action
+            android:id="@+id/action_emergency_request_to_emergency_status"
+            app:destination="@id/emergency_status" />
+        <action
+            android:id="@+id/action_emergency_request_to_consultation"
+            app:destination="@id/consultation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/emergency_status"
+        android:name="com.example.transhealthdemo.ui.Emergency.EmergencyStatusFragment"
+        app:startDestination="@id/action_emergency_status_to_emergency_request">
+        <action
+            android:id="@+id/action_emergency_status_to_emergency_request"
+            app:destination="@id/emergency_request" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/consultation"
+        android:name="com.example.transhealthdemo.ui.consultant.ConsultantFragment"
+      >
+
+        <action
+            android:id="@+id/action_consultation_to_emergency_request"
+            app:destination="@id/emergency_request" />
+    </fragment>
+
+</navigation>

@@ -21,6 +21,6 @@
             android:gravity="center"
             android:text="heaplug 1"
             android:lineHeight="2in"
-            android:textColor="@color/purple_700"/>
+            android:textColor="@color/deep_blue"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

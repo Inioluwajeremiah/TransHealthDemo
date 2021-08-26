@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_hospital"
-        android:name="com.example.transhealthdemo.ui.hospital.HospitalFragment"
-        android:label="@string/menu_hospital"
-        tools:layout="@layout/fragment_hospital" />
+        android:id="@+id/nav_emergency"
+        android:name="com.example.transhealthdemo.ui.Emergency.EmergencyFragment"
+        android:label="@string/menu_emergency"
+        tools:layout="@layout/fragment_emergency" />
 
     <fragment
         android:id="@+id/nav_pharmacy"

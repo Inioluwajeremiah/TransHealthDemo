@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="top"
-                android:background="@color/purple_700"
+                android:background="@color/deep_blue"
                 android:focusable="true"
                 android:orientation="vertical"
                 android:padding="10dp">
@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:background="@color/purple_700"
+            android:background="@color/deep_blue"
             android:orientation="horizontal">
 
             <ImageButton
@@ -113,7 +113,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:background="@color/purple_700"
+                android:background="@color/deep_blue"
                 android:padding="10dp"
                 android:src="@drawable/ic_next"
                 android:visibility="gone"/>
@@ -126,7 +126,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:background="@color/purple_700"
+                android:background="@color/deep_blue"
                 android:padding="10dp"
                 android:src="@drawable/ic_prev"
                 android:visibility="gone"/>
