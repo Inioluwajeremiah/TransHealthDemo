@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TransHealthDemo">
-        <activity android:name=".ui.fitness.FitnessActivity"></activity>
+        <activity android:name=".ui.diet.DietActivity"></activity>
+        <activity android:name=".ui.fitness.FitnessActivity" />
         <activity android:name=".ui.healthplug.HpActivity" />
         <activity
             android:name=".MainActivity"

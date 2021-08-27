@@ -19,14 +19,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_consultant">Consultant</string>
 
-    <string-array name="fitness_text">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
-
     <string-array name="hp_title">
         <item>Eat Breakfast </item>
         <item>Make Half Your Plate Fruits and Vegetables</item>
@@ -64,11 +56,75 @@ yogurt for dessert.</item>
         <item>22/08/2021</item>
     </string-array>
 
-    <string-array name="diet_text">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="diet_title">
+        <item>Diet title 1</item>
+        <item>Diet title 2</item>
+        <item>Diet title 3</item>
+        <item>Diet title 4</item>
+        <item>Diet title 5</item>
+    </string-array>
+    <string-array name="diet_desc">
+        <item>Diet description 1</item>
+        <item>Diet description 2</item>
+        <item>Diet description 3</item>
+        <item>Diet description 4</item>
+        <item>Diet description 5</item>
+    </string-array>
+    <string-array name="diet_cat">
+        <item>Diet category 1</item>
+        <item>Diet category 2</item>
+        <item>Diet category 3</item>
+        <item>Diet category 4</item>
+        <item>Diet category 5</item>
+    </string-array>
+    <string-array name="diet_auth">
+        <item>Diet Author 1</item>
+        <item>Diet Author 2</item>
+        <item>Diet Author 3</item>
+        <item>Diet Author 4</item>
+        <item>Diet Author 5</item>
+    </string-array>
+    <string-array name="diet_date">
+        <item>25/08/2021</item>
+        <item>26/08/2021</item>
+        <item>27/08/2021</item>
+        <item>28/08/2021</item>
+        <item>29/08/2021</item>
+    </string-array>
+
+    <string-array name="fit_title">
+        <item>Fitness title 1</item>
+        <item>Fitness title 2</item>
+        <item>Fitness title 3</item>
+        <item>Fitness title 4</item>
+        <item>Fitness title 5</item>
+    </string-array>
+    <string-array name="fit_desc">
+        <item>Fitness description 1</item>
+        <item>Fitness description 2</item>
+        <item>Fitness description 3</item>
+        <item>Fitness description 4</item>
+        <item>Fitness description 5</item>
+    </string-array>
+    <string-array name="fit_cat">
+        <item>Fitness category 1</item>
+        <item>Fitness category 2</item>
+        <item>Fitness category 3</item>
+        <item>Fitness category 4</item>
+        <item>Fitness category 5</item>
+    </string-array>
+    <string-array name="fit_auth">
+        <item>Fitness Author 1</item>
+        <item>Fitness Author 2</item>
+        <item>Fitness Author 3</item>
+        <item>Fitness Author 4</item>
+        <item>Fitness Author 5</item>
+    </string-array>
+    <string-array name="fit_date">
+        <item>Fitness date 1</item>
+        <item>Fitness date 2</item>
+        <item>Fitness date 3</item>
+        <item>Fitness date 4</item>
+        <item>Fitness date 5</item>
     </string-array>
 </resources>

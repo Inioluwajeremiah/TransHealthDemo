@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fitness.FitnessActivity">
+    tools:context=".ui.diet.DietActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,13 +13,13 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/fit_main_linearlayout"
+            android:id="@+id/diet_main_linearlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/fit_header"
+                android:id="@+id/diet_header"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -30,7 +30,7 @@
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/fit_title"
+                    android:id="@+id/diet_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
@@ -40,7 +40,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/fit_cat"
+                    android:id="@+id/diet_cat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -52,38 +52,36 @@
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/fit_header"
+                android:layout_below="@+id/diet_header"
                 android:layout_marginBottom="50dp">
 
                 <RelativeLayout
-                    android:id="@+id/fit_rel_layout"
+                    android:id="@+id/diet_rel_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="30dp"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp">
 
-                    <VideoView
-                        android:id="@+id/fit_videoview"
+                    <ImageView
+                        android:id="@+id/diet_imageview"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:layout_marginTop="15dp"
-                        android:layout_marginLeft="-16dp"
-                        android:layout_marginRight="-16dp"
-                        android:scaleType="centerCrop"/>
+                        android:scaleType="fitCenter"/>
                     <TextView
-                        android:id="@+id/fit_desc"
+                        android:id="@+id/diet_desc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:layout_below="@+id/fit_videoview"
+                        android:layout_below="@+id/diet_imageview"
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/fit_author"
+                        android:id="@+id/diet_author"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/fit_desc"
+                        android:layout_below="@id/diet_desc"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentLeft="true"
                         android:layout_marginTop="15dp"
@@ -92,10 +90,10 @@
                         android:textStyle="italic" />
 
                     <TextView
-                        android:id="@+id/fit_date"
+                        android:id="@+id/diet_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/fit_desc"
+                        android:layout_below="@id/diet_desc"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="15dp"
@@ -109,7 +107,7 @@
 
 
         <RelativeLayout
-            android:id="@+id/fit_bottom_nav_layout"
+            android:id="@+id/diet_bottom_nav_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -117,7 +115,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/fit_next_btn"
+                android:id="@+id/diet_next_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -130,7 +128,7 @@
                 android:visibility="gone"/>
 
             <ImageButton
-                android:id="@+id/fit_prev_btn"
+                android:id="@+id/diet_prev_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -143,5 +141,7 @@
                 android:visibility="gone"/>
         </RelativeLayout>
     </RelativeLayout>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
