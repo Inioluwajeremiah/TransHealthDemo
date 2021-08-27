@@ -68,7 +68,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:layout_marginTop="15dp"
-                        android:scaleType="fitCenter"/>
+                        android:src="@drawable/diet_image1"
+                        android:scaleType="centerCrop"/>
                     <TextView
                         android:id="@+id/diet_desc"
                         android:layout_width="match_parent"

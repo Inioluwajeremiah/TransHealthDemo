@@ -99,11 +99,11 @@ public class FitnessActivity extends AppCompatActivity {
                 fit_author_tv.setText(allFitAuthor[position]);
                 fit_date_tv.setText(allFitDate[position]);
                 fit_videoview.setVideoPath("android.resource://" + getPackageName() + "/" + allFitVid[position]);
-                MediaController mediaController = new MediaController(getApplicationContext());
-                mediaController.setAnchorView(fit_videoview);
-                fit_videoview.setMediaController(mediaController);
-                fit_videoview.requestFocus();
-                fit_videoview.start();
+//                MediaController mediaController = new MediaController(getApplicationContext());
+//                mediaController.setAnchorView(fit_videoview);
+//                fit_videoview.setMediaController(mediaController);
+//                fit_videoview.requestFocus();
+//                fit_videoview.start();
 
 
                 if (position <= 0) {
@@ -161,11 +161,11 @@ public class FitnessActivity extends AppCompatActivity {
                 fit_author_tv.setText(allFitAuthor[position]);
                 fit_date_tv.setText(allFitDate[position]);
                 fit_videoview.setVideoPath("android.resource://" + getPackageName() + "/" + allFitVid[position]);
-                MediaController mediaController = new MediaController(getApplicationContext());
-                mediaController.setAnchorView(fit_videoview);
-                fit_videoview.setMediaController(mediaController);
-                fit_videoview.requestFocus();
-                fit_videoview.start();
+//                MediaController mediaController = new MediaController(getApplicationContext());
+//                mediaController.setAnchorView(fit_videoview);
+//                fit_videoview.setMediaController(mediaController);
+//                fit_videoview.requestFocus();
+//                fit_videoview.start();
 
             }
         });
