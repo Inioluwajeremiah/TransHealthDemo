@@ -29,7 +29,7 @@
     <fragment
         android:id="@+id/consultation"
         android:name="com.example.transhealthdemo.ui.consultant.ConsultantFragment"
-      >
+        android:label="Consultation">
 
         <action
             android:id="@+id/action_consultation_to_emergency_request"

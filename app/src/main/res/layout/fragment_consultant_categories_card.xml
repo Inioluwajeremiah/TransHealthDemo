@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/horizontalScrollView">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_heart_surgeon"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:text="Heart Surgeon"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/white"
+                    android:elevation="6dp"
+                    />
+                <Button
+                    android:id="@+id/btn_psychologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Psychologist"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/white"
+                    android:elevation="6dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <Button
+                    android:id="@+id/btn_gynaecologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gynaecologist"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/white"
+                    android:elevation="6dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <Button
+                    android:id="@+id/neurologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neurologist"
+
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/white"
+                    android:elevation="6dp"
+                    />
+                <Button
+                    android:id="@+id/urologist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Urologist"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/white"
+                    android:elevation="6dp"
+                    />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+</RelativeLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".uiComponent.ConsultantCategoriesCard">
+
+        <HorizontalScrollView
+
+
+            android:id="@+id/consultant_category_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" android:gravity="center"  />
+            <Button
+                android:id="@+id/btn_heart_surgeon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heart Surgeon"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:elevation="6dp"
+                />
+            <Button
+                android:id="@+id/btn_psychologist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Psychologist"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:elevation="6dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_gynacolostist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ynacolostist"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:elevation="6dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/neurologist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NeuroLOgist"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:elevation="6dp"
+                />
+            <Button
+                android:id="@+id/urologist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urologist"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:elevation="6dp"
+
+                />
+
+
+
+        </HorizontalScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!-- <Button
+        android:id="@+id/btn_heart_surgeon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Surgeon"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <Button
+        android:id="@+id/btn_psychologist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Psychologist"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_heart_surgeon"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btn_gynacolostist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ynacolostist"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:elevation="6dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_psychologist"
+        />
+    <Button
+        android:id="@+id/neurologist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NeuroLOgist"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_gynacolostist"
+        />
+    <Button
+        android:id="@+id/urologist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urologist"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/white"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+ -->

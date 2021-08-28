@@ -37,7 +37,7 @@ public class EmergencyStatusFragment extends Fragment {
         binding.btnCancelCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //todo: implement a dialog , ( are u sure u want to can cel
+                //todo: implement a dialog , ( are u sure u want to cancel
                 Navigation.findNavController(binding.getRoot()).navigate(R.id.action_emergency_status_to_emergency_request);
             }
         });
